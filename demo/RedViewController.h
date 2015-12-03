@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RedViewController.h
 //  demo
 //
 //  Created by MagNet Alma on 2015. 12. 03..
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RedViewController : UIViewController
 
 @end
-

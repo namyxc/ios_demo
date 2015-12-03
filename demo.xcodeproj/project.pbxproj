@@ -9,10 +9,9 @@
 /* Begin PBXBuildFile section */
 		A0EFC63E1C1088300085D140 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC63D1C1088300085D140 /* main.m */; };
 		A0EFC6411C1088300085D140 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC6401C1088300085D140 /* AppDelegate.m */; };
-		A0EFC6441C1088300085D140 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC6431C1088300085D140 /* ViewController.m */; };
-		A0EFC6471C1088300085D140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC6451C1088300085D140 /* Main.storyboard */; };
 		A0EFC6491C1088300085D140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC6481C1088300085D140 /* Assets.xcassets */; };
-		A0EFC64C1C1088310085D140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC64A1C1088310085D140 /* LaunchScreen.storyboard */; };
+		A0EFC6561C108C3D0085D140 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC6541C108C3D0085D140 /* RedViewController.m */; };
+		A0EFC6571C108C3D0085D140 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC6551C108C3D0085D140 /* RedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +19,11 @@
 		A0EFC63D1C1088300085D140 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0EFC63F1C1088300085D140 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0EFC6401C1088300085D140 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A0EFC6421C1088300085D140 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A0EFC6431C1088300085D140 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A0EFC6461C1088300085D140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0EFC6481C1088300085D140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A0EFC64B1C1088310085D140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0EFC64D1C1088310085D140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0EFC6531C108C3D0085D140 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		A0EFC6541C108C3D0085D140 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		A0EFC6551C108C3D0085D140 /* RedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +58,12 @@
 			children = (
 				A0EFC63F1C1088300085D140 /* AppDelegate.h */,
 				A0EFC6401C1088300085D140 /* AppDelegate.m */,
-				A0EFC6421C1088300085D140 /* ViewController.h */,
-				A0EFC6431C1088300085D140 /* ViewController.m */,
-				A0EFC6451C1088300085D140 /* Main.storyboard */,
 				A0EFC6481C1088300085D140 /* Assets.xcassets */,
-				A0EFC64A1C1088310085D140 /* LaunchScreen.storyboard */,
 				A0EFC64D1C1088310085D140 /* Info.plist */,
 				A0EFC63C1C1088300085D140 /* Supporting Files */,
+				A0EFC6531C108C3D0085D140 /* RedViewController.h */,
+				A0EFC6541C108C3D0085D140 /* RedViewController.m */,
+				A0EFC6551C108C3D0085D140 /* RedViewController.xib */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -136,9 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0EFC64C1C1088310085D140 /* LaunchScreen.storyboard in Resources */,
+				A0EFC6571C108C3D0085D140 /* RedViewController.xib in Resources */,
 				A0EFC6491C1088300085D140 /* Assets.xcassets in Resources */,
-				A0EFC6471C1088300085D140 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +145,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0EFC6441C1088300085D140 /* ViewController.m in Sources */,
 				A0EFC6411C1088300085D140 /* AppDelegate.m in Sources */,
+				A0EFC6561C108C3D0085D140 /* RedViewController.m in Sources */,
 				A0EFC63E1C1088300085D140 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A0EFC6451C1088300085D140 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0EFC6461C1088300085D140 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A0EFC64A1C1088310085D140 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0EFC64B1C1088310085D140 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A0EFC64E1C1088310085D140 /* Debug */ = {
