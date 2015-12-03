@@ -12,6 +12,8 @@
 		A0EFC6491C1088300085D140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC6481C1088300085D140 /* Assets.xcassets */; };
 		A0EFC6561C108C3D0085D140 /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC6541C108C3D0085D140 /* RedViewController.m */; };
 		A0EFC6571C108C3D0085D140 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC6551C108C3D0085D140 /* RedViewController.xib */; };
+		A0EFC65B1C108FAF0085D140 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EFC6591C108FAF0085D140 /* BlueViewController.m */; };
+		A0EFC65C1C108FAF0085D140 /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0EFC65A1C108FAF0085D140 /* BlueViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,9 @@
 		A0EFC6531C108C3D0085D140 /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
 		A0EFC6541C108C3D0085D140 /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
 		A0EFC6551C108C3D0085D140 /* RedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
+		A0EFC6581C108FAF0085D140 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		A0EFC6591C108FAF0085D140 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		A0EFC65A1C108FAF0085D140 /* BlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,9 @@
 				A0EFC6531C108C3D0085D140 /* RedViewController.h */,
 				A0EFC6541C108C3D0085D140 /* RedViewController.m */,
 				A0EFC6551C108C3D0085D140 /* RedViewController.xib */,
+				A0EFC6581C108FAF0085D140 /* BlueViewController.h */,
+				A0EFC6591C108FAF0085D140 /* BlueViewController.m */,
+				A0EFC65A1C108FAF0085D140 /* BlueViewController.xib */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -133,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0EFC65C1C108FAF0085D140 /* BlueViewController.xib in Resources */,
 				A0EFC6571C108C3D0085D140 /* RedViewController.xib in Resources */,
 				A0EFC6491C1088300085D140 /* Assets.xcassets in Resources */,
 			);
@@ -147,6 +156,7 @@
 			files = (
 				A0EFC6411C1088300085D140 /* AppDelegate.m in Sources */,
 				A0EFC6561C108C3D0085D140 /* RedViewController.m in Sources */,
+				A0EFC65B1C108FAF0085D140 /* BlueViewController.m in Sources */,
 				A0EFC63E1C1088300085D140 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

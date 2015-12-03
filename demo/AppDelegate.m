@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RedViewController.h"
+#import "BlueViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +22,7 @@
     self.window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
     
     UITabBarController* tabbar = [UITabBarController new];
-    tabbar.viewControllers = @[[RedViewController new]];
+    tabbar.viewControllers = @[[RedViewController new], [BlueViewController new]];
     
     self.window.rootViewController = tabbar;
     
