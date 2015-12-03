@@ -24,6 +24,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    
+    if (self) {
+        self.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Blue" image:[UIImage imageNamed:@"apple"] tag:0];
+    }
+    
+    return self;
+    
+}
 /*
 #pragma mark - Navigation
 
